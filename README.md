@@ -32,14 +32,14 @@ This project implements a workflow-based Leave Management System API using Djang
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
+   git clone https://github.com/Ashoksanaka/leave-management.git
    cd leave-management-api
    ```
 
 2. Create and activate a virtual environment:
    ```
-   python3 -m venv leave_venv
-   source leave_venv/bin/activate
+   python3 -m venv venv
+   source venv/bin/activate
    ```
 
 3. Install dependencies:
