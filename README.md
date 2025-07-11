@@ -84,10 +84,3 @@ This project implements a workflow-based Leave Management System API using Djang
 
 - Audit Log:
   - `GET /api/audit-log/` - List all leave status transitions (HR only).
-
-## Notes
-- Use the management command `python manage.py expire_approvals` to auto-cancel leave requests pending approval for more than 3 days.
-- Follow best practices for API usage and role-based access control.
-
-## Video Demo
-A video demo walkthrough will be provided showing leave application, approval flow, and webhook simulation.
